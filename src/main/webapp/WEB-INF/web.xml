@@ -1,0 +1,57 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>StudentControl</servlet-name>
+  	<display-name>StudentControl</display-name>
+  	<description></description>
+  	<servlet-class>com.work.student.department.controller.StudentController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>EEEController</servlet-name>
+  	<display-name>EEEController</display-name>
+  	<description></description>
+  	<servlet-class>com.work.student.department.controller.EEEController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>MECHController</servlet-name>
+  	<display-name>MECHController</display-name>
+  	<description></description>
+  	<servlet-class>com.work.student.department.controller.MECHController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CIVLController</servlet-name>
+  	<display-name>CIVLController</display-name>
+  	<description></description>
+  	<servlet-class>com.work.student.department.controller.CIVLController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ECEController</servlet-name>
+  	<display-name>ECEController</display-name>
+  	<description></description>
+  	<servlet-class>com.work.student.department.controller.ECEController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>StudentControl</servlet-name>
+  	<url-pattern>/StudentControl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>EEEController</servlet-name>
+  	<url-pattern>/EEEController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>MECHController</servlet-name>
+  	<url-pattern>/MECHController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CIVLController</servlet-name>
+  	<url-pattern>/CIVLController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ECEController</servlet-name>
+  	<url-pattern>/ECEController</url-pattern>
+  </servlet-mapping>
+</web-app>
